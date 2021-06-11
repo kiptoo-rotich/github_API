@@ -11,6 +11,7 @@ import { ColorDirective } from './color.directive';
 // import { NgProgressModule } from '@ngx-progressbar/core';
 // import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { TimeCountPipe } from './time-count.pipe';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     DisplayComponent,
     ColorDirective,
     NotFoundComponent,
+    TimeCountPipe,
   ],
   imports: [
     BrowserModule,
